@@ -10,8 +10,6 @@ import MKTypography from "components/MKTypography";
 // Images
 import logoCT from "assets/images/logo-ct-dark.png";
 
-import { IoLocation } from "react-icons/io5";
-
 const date = new Date().getFullYear();
 
 export default {
@@ -59,7 +57,10 @@ export default {
     {
       name: "help & support",
       items: [
-        { name: "Department of Mining Engineerig, IIT Kharagpur", href: "https://www.creative-tim.com/contact-us" },
+        {
+          name: "Department of Mining Engineerig, IIT Kharagpur",
+          href: "https://www.creative-tim.com/contact-us",
+        },
         { name: "+91 1234567890", href: "https://www.creative-tim.com/knowledge-center" },
         { name: "help@tmes@iitkgp.iitkgp.ac.in", href: "https://services.creative-tim.com/" },
         // { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },

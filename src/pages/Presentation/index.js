@@ -60,7 +60,7 @@ function Presentation() {
         sticky
       />
       <MKBox
-        minHeight="75vh"
+        minHeight="120vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
@@ -83,7 +83,7 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              GREAT STEP &apos;23{" "}
             </MKTypography>
             <MKTypography
               variant="body1"
