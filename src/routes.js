@@ -39,9 +39,6 @@ Coded by www.creative-tim.com
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
-
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
@@ -50,10 +47,10 @@ import SignIn from "layouts/pages/authentication/sign-in";
 
 // Sections
 import PageHeaders from "layouts/sections/page-sections/page-headers";
-import Features from "layouts/sections/page-sections/featuers";
-import Navbars from "layouts/sections/navigation/navbars";
-import NavTabs from "layouts/sections/navigation/nav-tabs";
-import Pagination from "layouts/sections/navigation/pagination";
+// import Features from "layouts/sections/page-sections/featuers";
+// import Navbars from "layouts/sections/navigation/navbars";
+// import NavTabs from "layouts/sections/navigation/nav-tabs";
+// import Pagination from "layouts/sections/navigation/pagination";
 // import Inputs from "layouts/sections/input-areas/inputs";
 // import Forms from "layouts/sections/input-areas/forms";
 // import Alerts from "layouts/sections/attention-catchers/alerts";
@@ -113,76 +110,86 @@ const routes = [
     collapse: [
       {
         name: "Online Events",
-        description: "See all sections",
+        // description: "See all sections",
         dropdown: true,
         collapse: [
           {
-            name: "page headers",
+            name: "Enviro Case Study",
             route: "/sections/page-sections/page-headers",
             component: <PageHeaders />,
           },
           {
-            name: "features",
-            route: "/sections/page-sections/features",
-            component: <Features />,
+            name: "Mineo Case Study",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Petro Case Study",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Industrial Design",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Mineac",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Safety Data Analytics",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Safety Hunt",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "National Mining Innovation Challenge",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
+          },
+          {
+            name: "Geobotics",
+            route: "/sections/page-sections/page-headers",
+            component: <PageHeaders />,
           },
         ],
       },
       {
         name: "Offline Events",
-        description: "See all navigations",
+        // description: "See all navigations",
         dropdown: true,
         collapse: [
           {
-            name: "navbars",
+            name: "T-Shirt Design",
             route: "/sections/navigation/navbars",
-            component: <Navbars />,
+            component: <PageHeaders />,
           },
           {
-            name: "nav tabs",
+            name: "Quiz Spiel",
             route: "/sections/navigation/nav-tabs",
-            component: <NavTabs />,
+            component: <PageHeaders />,
           },
           {
-            name: "pagination",
+            name: "Mine Shot",
             route: "/sections/navigation/pagination",
-            component: <Pagination />,
+            component: <PageHeaders />,
           },
         ],
       },
     ],
   },
-  {
-    name: "docs",
-    icon: <Icon>article</Icon>,
-    collapse: [
-      {
-        name: "getting started",
-        description: "All about overview, quick start, license and contents",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
-      },
-      {
-        name: "foundation",
-        description: "See our colors, icons and typography",
-        href: "https://www.creative-tim.com/learning-lab/react/colors/material-kit/",
-      },
-      {
-        name: "components",
-        description: "Explore our collection of fully designed components",
-        href: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
-      },
-      {
-        name: "plugins",
-        description: "Check how you can integrate our plugins",
-        href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
-      },
-    ],
-  },
-  {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
-  },
+
+  // {
+  //   name: "github",
+  //   icon: <GitHubIcon />,
+  //   href: "https://www.github.com/creativetimofficial/material-kit-react",
+  // },
 ];
 
 export default routes;
